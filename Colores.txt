@@ -1,0 +1,23 @@
+
+
+#A7B3A8
+#97AD9F
+#CCBFA4
+#ADB6AA
+
+#CEC19F    Primario
+#668672    Secundario
+
+className="dark:bg-[#CEC19F]"
+
+SweetAlert utilizado:
+
+
+Swal.fire({
+    icon: 'error', // ícono por defecto de SweetAlert2
+    text: 'Código de verificación no válido. Verifica e intenta más tarde.',
+    confirmButtonText: 'Verificar',
+    confirmButtonColor: '#3B82F6', // azul similar al original
+    background: '#233876aa', // color de fondo aproximado
+    color: 'white' // color del texto principal
+})
